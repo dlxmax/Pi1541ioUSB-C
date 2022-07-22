@@ -1,3 +1,10 @@
+# About this Fork
+This fork removes one of the IEC ports and replaces it with a USB-C power connector. That way you can have all cables at the back instead of a power cable coming out the side. The lost IEC connector isn't an issue as you can place this device at the end of the daisychain, or you can solder a cable to the IEC2 connector.
+
+Also, the SPKR_EN (speaker engage?) jumper has been bridged so that you don't need to place a jumper there.
+
+Currently this is UNTESTED, but will be updated after boards have been assembled.
+
 # PI1541 IO Adapter
 
 This is an IO adapter board for the Raspberry Pi 3, based on the awesome [Pi1541

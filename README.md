@@ -1,5 +1,5 @@
 # About this Fork
-This fork removes one of the IEC ports and replaces it with a USB-C power connector. This way you can have all cables at the back instead of a power cable coming out the side. The lost IEC connector isn't an issue as you can place this device at the end of the daisychain, or you can solder a cable to the IEC1 connector. Zip tie holes have been added for the IEC1 connector as well, but to use them you cannot populate the IEC2 jack.
+This fork removes one of the IEC ports and replaces it with a GCT USB4085 USB-C power connector. This way all cables come out the back--no more power cable coming out the side. The removed IEC connector isn't an issue as you can place your Pi1541 at the end of the daisychain, or you can use both IEC1 and IEC2. Zip tie holes have been added for the IEC1 connector as well, but to use them you cannot populate the IEC2 jack.
 
 Also, the SPKR_EN (speaker engage?) jumper has been bridged so that you don't need to place a jumper there.
 

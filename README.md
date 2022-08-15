@@ -1,9 +1,11 @@
 # About this Fork
-This fork, based on rev.4, removes one of the IEC ports and replaces it with a GCT USB4085 USB-C power connector. This way all cables come out the back--no more RPi power cable coming out the side. The removed IEC connector isn't an issue as you can place your Pi1541 at the end of the daisychain, or you can use both IEC1 and IEC2. Zip tie holes have been added for the IEC1 connector as well, but to use them you cannot populate the IEC2 jack.
+This fork, based on rev.4, removes one of the IEC ports and replaces it with a GCT USB4085 USB-C port, but only its power lines are connected. This negates the need to plug a USB power cable into the RPi, so all cables are able to be routed out the back. The removed IEC connector isn't an issue as you can place your Pi1541 at the end of the daisychain, or you can use both an the IEC2 port and the IEC1 soldered-on cable simultaneously. Zip tie holes have been added for IEC as well, but to use them you cannot populate the IEC2 jack.
 
 Also, the SPKR_EN (speaker engage?) jumper has been bridged so that you don't need to place a jumper there.
 
-Currently this is UNTESTED, but will be updated after boards have been assembled.
+Currently this is UNTESTED, but will be updated after testing.
+
+One caveat about powering the RPi over the GPIO header is that it bypasses the polyfuse, and as such its protection. 
 
 # PI1541 IO Adapter
 
